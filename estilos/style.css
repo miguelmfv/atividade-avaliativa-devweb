@@ -20,9 +20,9 @@ body {
 
 header {
     height: 300px;
-    background: #EEBE9A url(../imagens/imagem-pizzaheader.jpg) ;
+    background: #EEBE9A url(../imagens/pizzacalabresa.jpg) ;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
 }
 

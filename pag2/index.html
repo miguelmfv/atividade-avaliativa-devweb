@@ -5,14 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizz'et</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+
 </head>
 <body>
     <header>
     <!--fundo do header uma pizza-->
-        <div>
-            <h1>Pizzaria Pizz'et</h1>
+        <div class="header">
+            <h1 id="header-titulo">PIZZARIA PIZZE'ET</h1>
             <!--título grande com uma descição no <p> menor-->
-            <p>Sua pizza de outro mundo!</p>
+            <p id="header-desc">Sua pizza de outro mundo!</p>
         </div>
         <nav>
             <!-- QUERO QUE O MENU SEJA SUSPENSO com javascript|||||pesquisar na net como fazer-->
@@ -28,10 +30,15 @@
             <!--os contatos, preços, horário de atendimento-->
         </nav>
     </header>
+    <!---------------------->
     <main>
         <h1>Menu</h1>
         <div>
-            <h2>Pizzas à Parte</h2>
+            <div>
+                <h2>Pizzas Salgadas</h2>
+                <p>R$40.00</p>
+            </div>
+            <!---------------------->
             <h3>Strogonoff</h3>
             <p>
                 Pizza extremamente gostosa, com Strogonoff de Carne da Casa e batata palha, com a massa crocante e cobertura de requeijão cremoso
@@ -58,9 +65,44 @@
             </p>
             <h3>Brocoli</h3>
             <p>
-                Uma das mais queridas, tem brocoli, bastante queijo e um pouco de requeijão com molho branco
+                Uma das mais queridas, tem brocoli, bastante queijo e um pouco de requeijão
             </p>
             <h3>Frango e Batata Palha</h3>
+            <p>
+                Uma clássica, a pizza tem frango desfiado com queijo e batata palha
+            </p>
+        </div>
+        <!---------------------->
+        <div>
+            <div>
+                <h2>Pizzas Doces</h2>
+                <p>R$38.00</p>
+            </div>
+            <!---------------------->
+            <h3>Charge</h3>
+            <p>
+                Pizza de Doce de Leite com chocolate, amendoim e creme de leite, massa crocante
+            </p>
+            <h3>Prestígio</h3>
+            <p>
+                Pizza de chocolate com coco ralado, têm opção de chocolate branco ou amargo, massa crocante
+            </p>
+            <h3>Morango</h3>
+            <p>
+                Morango com chocolate, a massa é crocante, e tem opções de chocolate branco ou ao leite
+            </p>
+            <h3>Chocolate com Nozes</h3>
+            <p>
+                Pizza de nozes com chocolate, tendo opções com chocolate branco ou 60% de cacau amargo
+            </p>
+            <h3>M&M's</h3>
+            <p>
+                Pizza de M&M's com camada de chocolate, com a massa crocante
+            </p>
+            <h3>Brownie</h3>
+            <p>
+                Massa crocante com uma camada de brownie e brigadeiro
+            </p>
         </div>
     </main>
 </body>

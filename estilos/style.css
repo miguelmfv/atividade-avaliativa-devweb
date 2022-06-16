@@ -50,9 +50,13 @@ nav {
 nav > a {
     text-decoration: none;
     color: white;
-    margin-left: 14px;
+    margin-left: 29px;
 
 }
 nav > a:hover {
-
+    background-color: #749928;
+    color: #FFF;
+    padding: 4px 2px 4px 2px;
+    border-radius: 7px;
+    font-weight: bolder;
 }

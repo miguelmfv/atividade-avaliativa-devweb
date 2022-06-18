@@ -27,7 +27,8 @@ header {
 }
 
 #header-desc {
-    
+    text-align: end;
+    color: #493b327c;
 }
 
 #header-titulo {

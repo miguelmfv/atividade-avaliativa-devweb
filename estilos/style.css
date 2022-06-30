@@ -3,6 +3,18 @@
     src: url('../fontes/Organic\ Relief.ttf') format('truetype');
 }
 
+h1 {
+    text-align: center;
+}
+
+nav {
+    position: static;
+}
+
+
+
+
+
 :root {
     --font-título: 'fonte-título';
 }

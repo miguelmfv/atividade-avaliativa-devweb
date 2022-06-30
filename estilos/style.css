@@ -5,20 +5,20 @@
 
 h1 {
     text-align: center;
+    margin-bottom: 17px;
 }
 
 nav {
     position: static;
 }
 
-
-
-
+#centro {
+    width: auto;
+}
 
 :root {
     --font-título: 'fonte-título';
 }
-
 
 * {
     margin: 0px;
@@ -28,6 +28,7 @@ nav {
 body {
     height: 100vh;
     background-color: #FFFAE0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*CABEÇAÇHO*/
 

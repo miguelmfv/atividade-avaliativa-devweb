@@ -1,0 +1,27 @@
+td {
+    border: 1px black solid;
+    padding: 7px;
+    border-radius: 3px;
+}
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+}
+
+.metadinha {
+    width: 350px;
+}
+
+.center {
+    text-align: center;
+}
+
+#alinha {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}

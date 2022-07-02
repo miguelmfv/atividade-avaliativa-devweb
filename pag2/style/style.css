@@ -1,0 +1,48 @@
+main {
+    width: 1200px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+.pizzasalgada {
+    width: 50%;
+    float: left;
+
+}
+
+.pizzadoce {
+    width: 50%;
+    float: right;
+
+}
+
+.carda {
+    width: 600px;
+    height: 200px;
+    border-top: 2px;
+    border-left: 2px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+}
+
+.imgcarda {
+
+    height: 120px;
+
+}
+
+.quadradinho {
+    width: 300px;
+    height: 80px;
+}
+
+.carda > p {
+    margin-top: 50px;
+    width: 500px;
+}

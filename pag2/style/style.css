@@ -19,6 +19,16 @@ h2 {
 
 }
 
+#idezaum {
+    margin-left: 40px;
+    width: 300px;
+}
+
+.idzaum > p{
+    text-align: center;
+
+}
+
 .carda {
     width: 600px;
     height: 200px;
@@ -33,16 +43,19 @@ h2 {
 
 .imgcarda {
 
-    height: 120px;
+    width: 150px;
 
 }
 
-.quadradinho {
-    width: 300px;
-    height: 80px;
+.quadradinho{
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
 }
 
 .carda > p {
-    margin-top: 50px;
-    width: 500px;
+    width: 340px;
+    float: right;
+    margin-right: 40px;
 }

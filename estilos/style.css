@@ -64,7 +64,7 @@ header {
 nav {
     background: rgba(0, 0, 0, 0.863);
     padding: 10px 20px 10px 20px;
-    width: 100vw;
+    width: 100%;
     display: flex;
 }
 nav > a {
@@ -72,6 +72,7 @@ nav > a {
     color: white;
     margin: 30px;
     font-size: 1em;
+    
 }
 nav > a:hover {
     background-color: #749928;
@@ -101,16 +102,7 @@ main > h1, h2, h3 {
     margin-top: 20px;
 }
 
-#idezaum{
-    margin-left: 40px;
-    width: 300px;
-}
 
-#idezaum > p {
-    font-size: 1,3em;
-    text-align: end;
-    margin-right:90px;
-}
 
 main > p {
     text-align: justify;
@@ -125,13 +117,17 @@ main h2 {
 
 /*botao*/
 
-#idbotao {
-    align-items: center;
-    justify-content: center;
-}
 
 body.dark {
     background-color: #1a2127;
+}
+
+h3.dark {
+    color: #eb4408;
+}
+
+p.dark {
+    color: #e0d6d5;
 }
 
 .checkbox {
@@ -151,6 +147,8 @@ body.dark {
     height: 17px;
     width: 40px;
     transform: scale(1.5);
+    margin-top: 26px;
+    margin-left: 100px;
 }
 
 .label .ball {

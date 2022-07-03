@@ -64,8 +64,9 @@ header {
 nav {
     background: rgba(0, 0, 0, 0.863);
     padding: 10px 20px 10px 20px;
-    width: 100%;
+    width: 97vw;
     display: flex;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.788);
 }
 nav > a {
     text-decoration: none;
@@ -104,22 +105,22 @@ main > h1, h2, h3 {
 
 
 
-main > p {
-    text-align: justify;
-}
-
 main h2 {
     font-size: 1.7em;
     text-decoration: underline;
 }
 
-
+.direitosfooter {
+    text-align: center;
+    background-color: rgba(27, 27, 29, 0.904);
+    padding: 20px;
+}
 
 /*botao*/
 
 
 body.dark {
-    background-color: #1a2127;
+    background-color: #303233;
 }
 
 h3.dark {

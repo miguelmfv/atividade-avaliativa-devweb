@@ -103,12 +103,35 @@
                 <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
                     placeholder="email@email.com">
                 <br><br>
-                <label for="numcel">Seu número de celular: </label>
-                <input type="tel" name="numcel" id="numcel" pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}$"
-                    placeholder="(DDD)xxxxx-xxxx">
+                <label for="numcel">Celular: </label>
+                <input type="tel" name="numcel" id="numcel" placeholder="(DDD)xxxxx-xxxx">
+                <br><br>
+                <label for="numpessoa">Escolha o número de pessoas</label>
+                <select name="n-p" id="numpessoa">
+                    <option value="np">Uma pessoa</option>
+                    <option value="2p">Duas pessoas</option>
+                    <option value="3p">Três pessoas</option>
+                    <option value="4p">Quatro pessoas</option>
+                    <option value="8p">Oito pessoas</option>
+                    <option value="10pmais">Dez ou mais pessoas</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Enviar" id="enviar">
+                
             </form>
         </div>
     </main>
+        <footer>
+            <p class="direitosfooter">
+                Os preços apresentados já incluem impostos. Imagens meramente ilustrativas. Promoções, combos e preços podem
+                variar de acordo com a sua localização. Se ocorrer qualquer divergência nos valores dos produtos ou promoções, o
+                preço válido é o apresentado no carrinho de compras. Preços e condições de pagamento exclusivos para compras via
+                internet. As promoções são válidas enquanto durarem os estoques. A Pizzaria Pizz'et se reserva o direito de
+                alterar e/ou remover itens ou promoções do cardápio sem aviso prévio. O horário de funcionamento e de entrega
+                varia de acordo com a sua localização e unidade escolhida.
+            </p>
+            <p class="direitosfooter">&copy; 2022 PIZZARIA PIZZ'ET</p>
+        </footer>
     <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
     <script src="../script/index.js"></script>
 </body>

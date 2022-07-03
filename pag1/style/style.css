@@ -1,3 +1,25 @@
-.oferta {
-    
+.direitosfooter {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+img {
+    display: list-item;
+    margin-bottom: 10px;
+}
+
+#botcard {
+    text-decoration: none;
+    border: 1px black solid;
+    background-color: #b1cb5e;
+    color: black;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }

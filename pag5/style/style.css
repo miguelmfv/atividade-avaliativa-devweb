@@ -2,7 +2,13 @@ td {
     border: 1px black solid;
     padding: 7px;
     border-radius: 3px;
+    background-color: #fff0b67a;
 }
+
+table {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.178);
+}
+
 h3 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -24,4 +30,19 @@ h3 {
 table {
     border-collapse: collapse;
     width: 700px;
+}
+
+input, option, select {
+    border: none;
+    padding: 5px;
+    background-color: #fff0b67a;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.178);
+}
+
+input:hover{
+
+}
+
+#enviar:hover {
+    background-color: #e0d6d5;
 }

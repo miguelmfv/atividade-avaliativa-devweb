@@ -1,4 +1,14 @@
-.subtitulo-pag3 {
-    font-size: 1.8em;
-    margin: 20px 0px 20px 10px;
+.subtitulo-pag3{
+    margin: 10px 0px 13px 13px;
+    font-size: 1.7em;
+}
+
+.para-pag3 {
+    line-height: 30px;
+}
+
+#imging {
+    width: 500px;
+    margin: auto;
+    display: block;
 }

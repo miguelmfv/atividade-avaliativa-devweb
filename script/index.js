@@ -14,6 +14,6 @@ chk.addEventListener('change', () => {
 })
 
 chk.addEventListener('change', () => {
-    document.querySelect('.parag').classList.toggle('dark') // consegui fazer um paragrafo por pagina ficar com letra branca, com o queryselectorALL ele não troca nada
+    document.getElementsbyClass('.parag').classList.toggle('dark') // consegui fazer um paragrafo por pagina ficar com letra branca, com o queryselectorALL ele não troca nada
 })
 

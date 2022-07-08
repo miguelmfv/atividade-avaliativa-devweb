@@ -92,7 +92,7 @@ main {
 }
 
 main > h1, h2, h3 {
-    color: #461413;
+    color: #691e1d;
 
 
 }
@@ -128,6 +128,10 @@ h3.dark {
 }
 
 p.dark {
+    color: white;
+}
+
+.parag.dark {
     color: #e0d6d5;
 }
 
